@@ -8,18 +8,22 @@ namespace rpsls
 {
     public class Moves
     {
+        void outcome;
+        List<string> allGestureOptions;
         public string rock;
         public string scissors;
         public string paper;
         public string lizard;
         public string spock;
-
-        //    string[] allMoveOptions = new string[4];
-        //    allMoveOptions[0] = "Rock";
-        //    allMoveOptions[1] = "Scissors";
-        //    allMoveOptions[2] = "Paper";
-        //    allMoveOptions[3] = "Lizard";
-        //    allMoveOptions[4] = "Spock";
-
     }
+
+        List<string> allGestureOptions = new List<string>();
+            allGestureOptions.Add("rock");
+            allGestureOptions.Add("paper");
+            allGestureOptions.Add("scissors");
+            allGestureOptions.Add("lizard");
+            allGestureOptions.Add("spock");
+        
+        
 }
+
