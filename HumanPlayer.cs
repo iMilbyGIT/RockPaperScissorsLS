@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace rpsls
 {
-    class NPC
+    class HumanPlayer
     {
     }
 }
