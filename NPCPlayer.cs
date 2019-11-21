@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace rpsls
 {
-    class NPCPlayer
+    public class NPCPlayer
     {
+            
+
+
+        public override void moveTypeSelection();
+
+
+
+
+
     }
 }
