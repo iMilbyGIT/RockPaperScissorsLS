@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLSv3
 {
-    class Computer : Player
+    public class Computer : Player
     {
         public override void ChooseGesture()
         {

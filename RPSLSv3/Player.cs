@@ -14,7 +14,7 @@ namespace RPSLSv3
         public string name;
         public List<string> gestures;
         public string gesture;
-
+        public string gestureInput;
         public abstract void ChooseGesture();
         public abstract void ChooseName();
 

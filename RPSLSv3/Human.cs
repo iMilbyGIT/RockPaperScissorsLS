@@ -6,23 +6,40 @@ using System.Threading.Tasks;
 
 namespace RPSLSv3
 {
-    class Human : Player
+    public class Human : Player
     {
         public override void ChooseGesture()
         {
-            Console.WriteLine("choose a gesture");
-            gesture = Console.ReadLine();
+            Console.WriteLine("What will you choose? Rock, Paper, Scissor, Lizard, or Spock?");
+            gestureInput = Console.ReadLine();
+             		switch(gestureInput)
+                  {
+             			case "rock":
+             			
+             			break;
+             			case "paper":
+             			
+             			break;
+             			case "scissor":
+             			
+             			break;
+             			case "lizard":
+             			
+             			break;
+             			case "spock":
+             			
+             			break;
+             			default:
+                        Console.WriteLine("That's not one of the options, please enter your move again.");
+             			return;
+             		}
+             	
         }
         public override void ChooseName()
         {
             Console.WriteLine("choose a name");
             name = Console.ReadLine();
         }
-
-
-
-
-
 
 
     }

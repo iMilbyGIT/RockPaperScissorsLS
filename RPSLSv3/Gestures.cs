@@ -15,7 +15,7 @@ namespace RPSLSv3
         public string spock;
 
 
-        public List<string> gestureOptions = new List<string>();
+    //    public List<string> gestureOptions = new List<string>();
 
 
 
