@@ -10,7 +10,7 @@ namespace RPSLSv3
     {
         public override void ChooseGesture()
         {
-            //    Random
+        //    Random.Next;
         }
 
         public override void ChooseName()
