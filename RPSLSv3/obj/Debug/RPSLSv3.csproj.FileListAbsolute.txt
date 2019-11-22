@@ -1,0 +1,6 @@
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\bin\Debug\RPSLSv3.exe.config
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\bin\Debug\RPSLSv3.exe
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\bin\Debug\RPSLSv3.pdb
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\obj\Debug\RPSLSv3.csprojAssemblyReference.cache
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\obj\Debug\RPSLSv3.exe
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\obj\Debug\RPSLSv3.pdb

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace RockPaperV2
+namespace RPSLSv3
 {
     abstract public class Player
     {
@@ -11,25 +13,17 @@ namespace RockPaperV2
         public List<string> choices;
         public string name;
         public List<string> gestures;
+        public string gesture;
 
-        public abstract void ChooseGesture(Gestures);
+        public abstract void ChooseGesture();
         public abstract void ChooseName();
 
-        public void RunGame()
-        {
-            string input GetNumberPlayers();
-            CreatePlayers(input);
-            player1.ChooseGesture();
-            player2.ChooseGesture();
-        }
+
 
     }
 
 
 }
-
-
-
 // 	ChooseGesture = Console.WriteLine("What will you choose? Rock, Paper, Scissors, Lizard, or Spock?");
 // 	string moveTypeSelection;
 // 		switch(moveType)

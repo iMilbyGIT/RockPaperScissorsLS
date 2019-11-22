@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace RockPaperV2
+namespace RPSLSv3
 {
     public class Gestures
     {
@@ -14,10 +16,9 @@ namespace RockPaperV2
 
 
         public List<string> gestureOptions = new List<string>();
-        
 
-        
+
+
     }
 
 }
- 

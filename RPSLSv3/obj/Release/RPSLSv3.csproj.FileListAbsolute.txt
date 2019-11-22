@@ -1,0 +1,5 @@
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\bin\Release\RPSLSv3.exe.config
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\bin\Release\RPSLSv3.exe
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\bin\Release\RPSLSv3.pdb
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\obj\Release\RPSLSv3.exe
+C:\Users\adamm\OneDrive\Desktop\DevCodeCamp\Week 3\Projects\RPSLSv3\RPSLSv3\obj\Release\RPSLSv3.pdb
