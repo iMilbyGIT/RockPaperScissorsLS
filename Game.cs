@@ -6,8 +6,8 @@ namespace RockPaperV2
 {
     public class Game
     {
-        Player player1;
-        Player player2;
+        public Player player1;
+        public Player player2;
 
         public string GetNumberPlayers()
         {
@@ -18,7 +18,7 @@ namespace RockPaperV2
             return numberPlayers;
             }
             else{
-                Console.WriteLine("Please enter an accurate number of players.");
+                Console.WriteLine("Sorry, I didn't understand what you just typed. Please re-enter your selection.");
                 Console.ReadLine();
                 GetNumberPlayers();
             }

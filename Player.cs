@@ -4,16 +4,16 @@ using System.Text;
 
 namespace RockPaperV2
 {
-    abstract class Player
+    abstract public class Player
     {
 
         public int score;
         public List<string> choices;
         public string name;
-        List<Gestures> gestures;
+        public List<string> gestures;
 
-        abstract void ChooseGesture();
-        abstract void ChooseName();
+        public abstract void ChooseGesture(Gestures);
+        public abstract void ChooseName();
 
         public void RunGame()
         {
@@ -21,11 +21,6 @@ namespace RockPaperV2
             CreatePlayers(input);
             player1.ChooseGesture();
             player2.ChooseGesture();
-        }
-
-        public Player()
-        {
-            gestures = new List<Gestures>();
         }
 
     }

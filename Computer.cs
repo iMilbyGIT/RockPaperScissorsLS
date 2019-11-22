@@ -6,5 +6,10 @@ namespace RockPaperV2
 {
     class Computer
     {
+        public override void ChooseGesture()
+        {
+            Random
+        }
+
     }
 }

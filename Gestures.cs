@@ -12,6 +12,12 @@ namespace RockPaperV2
         public string lizard;
         public string spock;
 
+
+        public List<string> gestureOptions = new List<string>();
+        
+
+        
     }
 
 }
+ 
