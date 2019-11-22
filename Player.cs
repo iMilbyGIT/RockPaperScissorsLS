@@ -10,7 +10,7 @@ namespace RockPaperV2
         public int score;
         public List<string> choices;
         public string name;
-        public string gesture;
+        List<Gestures> gestures;
 
         abstract void ChooseGesture();
         abstract void ChooseName();
@@ -21,6 +21,12 @@ namespace RockPaperV2
             CreatePlayers(input);
             player1.ChooseGesture();
             player2.ChooseGesture();
+        }
+
+        public Player()
+        {
+            gestures = new List<Gestures>();
+            gestures.Add 
         }
 
     }
@@ -50,13 +56,6 @@ namespace RockPaperV2
 //
 //        }
 
-
-//        List<string> moveOptions = new List<string>();
-//        moveOptions.Add("Rock");
-//        moveOptions.Add("Paper");
-//        moveOptions.Add("Scissors");
-//        moveOptions.Add("Lizard");
-//        moveOptions.Add("Spock");
 
 
 // function move(){
