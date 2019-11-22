@@ -11,17 +11,21 @@ namespace RockPaperV2
 
         public string GetNumberPlayers()
         {
-            Console.WriteLine("How many players?");
+            Console.WriteLine("Time for a good ol' game of Rock-Paper-Scissors-Lizard-Spock! How many players? Enter 1 for solo play (human vs comp) or 2 for PvP (human vs human).");
             string numberPlayers = Console.ReadLine();
+            if(numberPlayers == "1" || numberPlayers == "2")
+            {
             return numberPlayers;
+            }
+            else{
+                Console.WriteLine("Please enter an accurate number of players.");
+                Console.ReadLine();
+                GetNumberPlayers();
+            }
+
         }
         public void CreatePlayers(string numberPlayers)
         {
-
-
-
-
-
             if(numberPlayers =="1")
             {
                 player1 = new Human();
@@ -40,16 +44,19 @@ namespace RockPaperV2
 
 
 }
+
 //        public playerType()
 //        {
 //            string CreatePlayers = Console.WriteLine("Time for a good ol' game of Rock-Paper-Scissors-Lizard-Spock! How many players? Enter 1 for solo play (human vs comp) or 2 for PvP (human vs human).  If you're a chicken that's okay too, just type abort to quit game.");
 //            switch (playerTypeSelection)
 //            {
 //             case "1":
-//             playerTypeSelection = NPCPlayer();
+//             player1 = new Human();
+//             player2 = new Computer();
 //             break;
 //             case "2":
-//             playerTypeSelection = HumanPlayer();
+//             player1 = new Human();
+//             player2 = new Human();
 //             break;
 //             case "abort":
 //             return;
