@@ -20,9 +20,16 @@ namespace RPSLSv3
 
 
 
+        List<string> gestureChoices = new List<string>() { "rock", "paper", "scissor", "lizard", "spock" }; 
+
+
+
+
+
+
     }
 
-
+        
 }
 // 	ChooseGesture = Console.WriteLine("What will you choose? Rock, Paper, Scissors, Lizard, or Spock?");
 // 	string moveTypeSelection;

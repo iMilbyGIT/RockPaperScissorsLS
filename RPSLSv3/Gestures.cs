@@ -16,7 +16,7 @@ namespace RPSLSv3
         }
 
 
-        public abstract void Compare(Gestures gestures);
+        public abstract string Compare(Gestures gestures);
 
     }
 

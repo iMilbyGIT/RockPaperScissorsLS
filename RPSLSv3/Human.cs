@@ -15,7 +15,7 @@ namespace RPSLSv3
              		switch(gestureInput)
                   {
              			case "rock":
-             			
+                        
              			break;
              			case "paper":
              			
